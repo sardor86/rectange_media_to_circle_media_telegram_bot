@@ -1,3 +1,4 @@
 aiogram~=2.25
 python-dotenv~=0.21.1
 opencv-python~=4.7.0.68
+environs~=9.5.0

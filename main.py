@@ -23,7 +23,7 @@ async def start_or_help_command(message: types.Message, state: FSMContext):
 
 @dp.message_handler(commands=['start', 'help'])
 async def start_or_help_command(message: types.Message):
-    await message.reply('Чтобы начать напишите /begin')
+    await message.reply('Чтобы начать напишите /begin\nПрограммист sardor86')
 
 
 @dp.message_handler(commands=['begin'])
